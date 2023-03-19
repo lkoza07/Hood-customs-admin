@@ -541,7 +541,7 @@ user_premium__001.Chatted:connect(function(cht)
   local A = charX:WaitForChild("Humanoid")
   A.Health = 0
 		end
-	end
+	
  
 end)
  
